@@ -1,20 +1,11 @@
 # Facial Expression Recognition
 
-A **TensorFlow/Keras CNN** that classifies basic emotions (happy, sad, neutral, etc.)  
-using a small sample dataset.
+A tiny demo using TensorFlow/Keras to guess simple “emotions”
+(it’s actually classifying numbers 0-9 to keep it easy).
 
----
+## How to Run (after we install Python)
 
-## 💡 What This Shows
-* Image preprocessing with OpenCV + TensorFlow
-* Convolutional Neural Network (CNN) for classification
-* Training/validation pipeline and accuracy metrics
-* Mini-demo of **AI for human–computer interaction**
-
----
-
-## 🛠️ How to Run
-
-### 1️⃣ Install dependencies
-```bash
-pip install tensorflow opencv-python matplotlib
+1. Open a terminal (Command Prompt on Windows).
+2. Install stuff:  pip install tensorflow
+3. Start training:  python train_emotion_model.py
+4. Test a picture:  python predict.py your_image.jpg
